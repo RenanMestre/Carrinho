@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="formulário.css">
     <link rel="shortcut icon" type="imagex/png" href="./img/Formulário.png">
-    <title>Feedback</title>
+    <title>Participar</title>
 </head>
 <body>
     <section>
@@ -16,12 +16,16 @@
             <input type="text" name="$nome" placeholder="Digite seu nome" autocomplete="on" required>
             <label>Data</label>
             <input type="text" name="$data" placeholder ="Digite a data em que está preenchendo esse fomulário" required>
-            <label>Gostaria que mudasse você de horário ou local no carrinho?</label>
-            <input type="text" name="$mudança no horário ou local" placeholder="Escreva se Sim ou Não" autocomplete="off" required>
-            <label>Quais são as condições do carrinho?</label>
-            <input type="text" name="$condições do carrinho" placeholder="Escreva se Boa ou Ruim" autocomplete="off" required></input>
-            <label>(Opcional) Nos dê sugestões sobre melhorias no carrinho</label>
-            <textarea name="$sugestões" cols="30" rows="10" placeholder="Escrevas as sugestões..."></textarea>
+            <label>Gostaria de participar do carrinho?</label>
+            <input type="text" name="$mudança no horário ou local" placeholder="Escreva se Sim ou Não" autocomplete="on" required>
+            <label>Quais dias você estará disponível?</label>
+            <input type="text" name="$condições do carrinho" placeholder="Dias disponíveis" autocomplete="on" required></input>
+            <label>Qual local você prefere?</label>
+            <input type="text" name="$condições do carrinho" placeholder="Escolha entre Carlos Coccia ou Posto de Saúde" autocomplete="on" required></input>
+            <label>Qual horário?</label>
+            <input type="text" name="$condições do carrinho" placeholder="Horário de preferência" autocomplete="on" required></input>
+            <label>Alguma observação?</label>
+            <textarea name="$observações" cols="30" rows="10" placeholder="Escrevas se tem alguma observação quanto ao dia, horário, etc..."></textarea>
             <button type="submit">Enviar</button>
 
             <input type="hidden" name="accessKey" value="f61c02e4-3f14-4dcf-b8ae-b9b98b3bdf8c">
