@@ -12,7 +12,7 @@ body {
     max-width: 800px;
     padding: 20px;
     text-align: center;
-    background-color: #fff; /* Fundo branco para o container */
+    background-color: #960ec0; /* Fundo branco para o container */
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
     border-radius: 10px; /* Arredonda as bordas do container */
   }
@@ -26,13 +26,13 @@ body {
   h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #333;
+    color: #ffffff;
   }
   
   p {
     max-width: 500px;
     margin-bottom: 2rem;
-    color: #666;
+    color: #ffffff;
   }
   
   .button-container {
@@ -49,8 +49,8 @@ body {
   }
   
   .botao {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(247, 2, 255);
     padding: 15px 30px;
     border: none;
     border-radius: 5px;
@@ -60,7 +60,7 @@ body {
   }
   
   .botao:hover {
-    background-color: #3CB371;
+    background-color: #6b0e75;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   }
 
